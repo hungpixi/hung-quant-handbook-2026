@@ -1,864 +1,864 @@
-# BAO CAO CHIEN LUOC 2026 CUA HUNG
+# BÁO CÁO CHIẾN LƯỢC 2026 CỦA HƯNG
 
-> Tai lieu goc duoc viet lai ngay 03/04/2026.
+> Tài liệu gốc được viết lại ngày 03/04/2026.
 > 
-> Ban nay khong dung lai van phong content gay soc. Noi dung duoc sap xep lai theo huong kinh nghiep, ton trong thi truong, ton trong nguoi hoc, va uu tien kha nang van hanh that.
+> Bản này không dùng lại văn phong content gây sốc. Nội dung được sắp xếp lại theo hướng kính nghiệp, tôn trọng thị trường, tôn trọng người học, và ưu tiên khả năng vận hành thật.
 
 ---
 
-## Loi mo dau
+## Lời mở đầu
 
-Tai lieu nay duoc viet lai tu mot nguon cam hung cua mot nguoi chi lam content. Phan anh huong ve goc nhin van con, nhung gioi thieu, cach lap luan, va cach hanh dong da duoc chuyen thanh giong cua Hung: di thang vao van de, giu long ton trong thi truong, va xem trading la mot nghe can hoc bai ban.
+Tài liệu này được viết lại từ một nguồn cảm hứng của một người chị làm content. Phần ảnh hưởng về góc nhìn vẫn còn, nhưng giới thiệu, cách lập luận, và cách hành động đã được chuyển thành giọng của Hưng: đi thẳng vào vấn đề, giữ lòng tôn trọng thị trường, và xem trading là một nghề cần học bài bản.
 
-Neu mot tai lieu chi lam nguoi doc thay hung phan, tai lieu do chua du. Neu mot tai lieu chi dua ra du bao ma khong day cach tu kiem chung, tai lieu do cung chua du. Ban nay co 3 muc tieu:
+Nếu một tài liệu chỉ làm người đọc thấy hưng phấn, tài liệu đó chưa đủ. Nếu một tài liệu chỉ đưa ra dự báo mà không dạy cách tự kiểm chứng, tài liệu đó cũng chưa đủ. Bản này có 3 mục tiêu:
 
-1. Day nguoi moi hieu ban chat viec giao dich co loi nhuan.
-2. Xay mot lo trinh 30 ngay de di tu hoc lan man sang hoc co he thong.
-3. Dung mot bo moi truong one-click de qua trinh hoc, nghien cuu, viet note, backtest, va van hanh khong bi dut quang.
+1. Dạy người mới hiểu bản chất việc giao dịch có lợi nhuận.
+2. Xây một lộ trình 30 ngày để đi từ học lan man sang học có hệ thống.
+3. Dựng một bộ môi trường one-click để quá trình học, nghiên cứu, viết note, backtest, và vận hành không bị đứt quãng.
 
-Trading la mot nghe can su ton nghiem. Thi truong khong no ai ca, nhung cung khong doi xu te voi nguoi biet hoc va biet giu minh.
+Trading là một nghề cần sự tôn nghiêm. Thị trường không nợ ai cả, nhưng cũng không đối xử tệ với người biết học và biết giữ mình.
 
 ---
 
-## Phan I. Ban chat nghe trading
+## Phần I. Bản chất nghề trading
 
-### 1. Vi sao da so trader khong co loi nhuan
+### 1. Vì sao đa số trader không có lợi nhuận
 
-Da so trader thua khong phai vi kem thong minh. Ho thua vi lam sai thu tu:
+Đa số trader thua không phải vì kém thông minh. Họ thua vì làm sai thứ tự:
 
-- Tim entry truoc khi hieu edge.
-- Tim indicator truoc khi hieu thi truong dang co regime gi.
-- Tim cach nhan doi tai khoan truoc khi hoc cach song sot.
-- Dung DCA de keo dai thoi gian den luc gap mot nhat cat duoc toan bo loi nhuan.
-- Nhieu nguoi nham drawdown tam thoi voi kha nang song sot dai han.
+- Tìm entry trước khi hiểu edge.
+- Tìm indicator trước khi hiểu thị trường đang có regime gì.
+- Tìm cách nhân đôi tài khoản trước khi học cách sống sót.
+- Dùng DCA để kéo dài thời gian đến lúc gặp một nhát cắt đứt toàn bộ lợi nhuận.
+- Nhiều người nhầm drawdown tạm thời với khả năng sống sót dài hạn.
 
-Neu phai gom gon trong mot cong thuc, trading co loi nhuan ben vung la:
+Nếu phải gom gọn trong một công thức, trading có lợi nhuận bền vững là:
 
 `Expectancy x Position Sizing x Regime Fit x Execution Quality x Survival`
 
-Trong do:
+Trong đó:
 
-- `Expectancy`: ve dai han, moi lenh co gia tri ky vong duong.
-- `Position Sizing`: danh dung kich thuoc de khi sai van con song.
-- `Regime Fit`: dung chien luoc dung luc.
-- `Execution Quality`: spread, slippage, session, tin tuc khong pha nat he thong.
-- `Survival`: song du lau de edge duoc bieu lo.
+- `Expectancy`: về dài hạn, mỗi lệnh có giá trị kỳ vọng dương.
+- `Position Sizing`: đánh đúng kích thước để khi sai vẫn còn sống.
+- `Regime Fit`: dùng chiến lược đúng lúc.
+- `Execution Quality`: spread, slippage, session, tin tức không phá nát hệ thống.
+- `Survival`: sống đủ lâu để edge được biểu lộ.
 
-### 2. Hai thu Hung xem la loi cua nghe
+### 2. Hai thứ Hưng xem là lõi của nghề
 
-- `Long tham`: nguoi trong thi truong luon chay theo ky vong loi nhuan, FOMO, va ham muon gia di tiep.
-- `Thang du`: mot cap giao dich hay mot thi truong chi co the cho xu huong ben khi dong tien, nhu cau, hoac ap luc dinh gia thuc su con du dia de di them.
+- `Lòng tham`: người trong thị trường luôn chạy theo kỳ vọng lợi nhuận, FOMO, và ham muốn giá đi tiếp.
+- `Thặng dư`: một cặp giao dịch hay một thị trường chỉ có thể cho xu hướng bền khi dòng tiền, nhu cầu, hoặc áp lực định giá thực sự còn dư địa để đi thêm.
 
-Noi ngan gon:
+Nói ngắn gọn:
 
-- Khong co dong co tiep dien, trend yeu.
-- Khong co thang du, gia de tro lai can bang.
-- Khong co ky luat, trader se tu huy edge cua chinh minh.
+- Không có động cơ tiếp diễn, trend yếu.
+- Không có thặng dư, giá dễ trở lại cân bằng.
+- Không có kỷ luật, trader sẽ tự huỷ edge của chính mình.
 
-### 3. Dieu trader moi can hieu som
+### 3. Điều trader mới cần hiểu sớm
 
-- Thi truong khong thuong su tu tin vo can cu.
-- Mot robot co winrate cao khong co nghia la mot he thong manh.
-- Mot backtest dep chua chac la mot bo may co the live.
-- DCA co the la cong cu quan tri vi the co dieu kien, nhung neu no la ly do duy nhat equity curve dep thi do la tin hieu canh bao.
+- Thị trường không thưởng sự tự tin vô căn cứ.
+- Một robot có winrate cao không có nghĩa là một hệ thống mạnh.
+- Một backtest đẹp chưa chắc là một cỗ máy có thể live.
+- DCA có thể là công cụ quản trị vị thế có điều kiện, nhưng nếu nó là lý do duy nhất equity curve đẹp thì đó là tín hiệu cảnh báo.
 
-### Bai tap ve nha 01
+### Bài tập về nhà 01
 
-Viet file note dau tien voi ten `memory/concepts/edge-definition.md` tra loi 5 cau:
+Viết file note đầu tiên với tên `memory/concepts/edge-definition.md` trả lời 5 câu:
 
-1. Toi dang co the kiem tien tu dau?
-2. Toi dang co the mat tien vi dau?
-3. Neu bo DCA thi he thong con gi?
-4. Thi truong nao hop voi toi nhat hien tai?
-5. Toi muon hoc de song sot, hay hoc de thang nhanh?
+1. Tôi đang có thể kiếm tiền từ đâu?
+2. Tôi đang có thể mất tiền vì đâu?
+3. Nếu bỏ DCA thì hệ thống còn gì?
+4. Thị trường nào hợp với tôi nhất hiện tại?
+5. Tôi muốn học để sống sót, hay học để thắng nhanh?
 
 ---
 
-## Phan II. Huong di tot nhat trong trading nam 2026
+## Phần II. Hướng đi tốt nhất trong trading năm 2026
 
-### 1. Khong can danh bai moi bot AI
+### 1. Không cần đánh bại mọi bot AI
 
-Thi truong thay doi vi AI va bot manh hon la that. Thanh khoan bi quet nhanh hon, breakout gia xuat hien nhieu hon, va nhung vung sideway ngắn han kho nhai hon. Nhung dieu do khong xoa bo toan bo edge cua retail.
+Thị trường thay đổi vì AI và bot mạnh hơn là thật. Thanh khoản bị quét nhanh hơn, breakout giả xuất hiện nhiều hơn, và những vùng sideway ngắn hạn khó nhai hơn. Nhưng điều đó không xoá bỏ toàn bộ edge của retail.
 
-Thu retail van con co the lam tot:
+Thứ retail vẫn còn có thể làm tốt:
 
-- Chon thi truong va khung gio dung.
-- Dung he trend-following va continuation.
-- Them regime filter de tranh chop.
-- Giam tan suat, tang chat luong lenh.
-- Lay risk engine lam cot song.
+- Chọn thị trường và khung giờ đúng.
+- Dùng hệ trend-following và continuation.
+- Thêm regime filter để tránh chop.
+- Giảm tần suất, tăng chất lượng lệnh.
+- Lấy risk engine làm cột sống.
 
-### 2. Nhung ho chien luoc dang con gia tri
+### 2. Những họ chiến lược đang còn giá trị
 
 #### Trend-following
 
-Day la ho chien luoc dang de nghien cuu nhat cho retail.
+Đây là họ chiến lược đáng để nghiên cứu nhất cho retail.
 
-- De giai thich.
-- De backtest hon so voi signal huy hoc.
-- Co tinh ben tren nhieu thi truong.
-- Phu hop voi XAUUSD va mot so cap forex thanh khoan cao.
+- Dễ giải thích.
+- Dễ backtest hơn so với signal huyền học.
+- Có tính bền trên nhiều thị trường.
+- Phù hợp với XAUUSD và một số cặp forex thanh khoản cao.
 
 #### Breakout / Continuation
 
-Phu hop khi:
+Phù hợp khi:
 
-- thi truong co dong luc thuc su
-- co nhip nen truoc do
-- thanh khoan du day
-- session va vol ung ho
+- thị trường có động lực thực sự
+- có nhịp nén trước đó
+- thanh khoản đủ dày
+- session và vol ủng hộ
 
 #### Regime-aware systems
 
-Khong hoi "signal nao ngon nhat", ma hoi:
+Không hỏi "signal nào ngon nhất", mà hỏi:
 
-- Hom nay la trend day hay chop day?
-- Session nay co thich hop de bat breakout khong?
-- Luc nao phai giam size?
-- Luc nao phai tat may?
+- Hôm nay là trend day hay chop day?
+- Session này có thích hợp để bắt breakout không?
+- Lúc nào phải giảm size?
+- Lúc nào phải tắt máy?
 
 #### Volatility-aware sizing
 
-Khong phai lenh nao cung dat cung mot lot. Thi truong bien dong khac nhau can size khac nhau.
+Không phải lệnh nào cũng đặt cùng một lot. Thị trường biến động khác nhau cần size khác nhau.
 
-### 3. Nhung huong khong nen lay lam cot song thang dau
+### 3. Những hướng không nên lấy làm cốt sống tháng đầu
 
 - Indicator soup.
-- Chieu tro chon le, me tin pattern, vao lenh vi thay "co ve dung".
-- SMC neu chua viet thanh rule co the test duoc.
-- Martingale vo han.
-- Toi uu tham so chi de dep duong von qua khu.
+- Chiêu trò chọn lẻ, mê tín pattern, vào lệnh vì thấy "có vẻ đúng".
+- SMC nếu chưa viết thành rule có thể test được.
+- Martingale vô hạn.
+- Tối ưu tham số chỉ để đẹp đường vốn quá khứ.
 
-### Bai tap ve nha 02
+### Bài tập về nhà 02
 
-Viet file `memory/concepts/why-trend-still-works.md` tra loi:
+Viết file `memory/concepts/why-trend-still-works.md` trả lời:
 
-- Vi sao trend van ton tai du AI manh hon?
-- Dieu gi lam trend fail?
-- Toi se nhan dien chop bang cach nao?
-- Toi co chap nhan bo qua nhieu lenh de doi lenh dep hon khong?
+- Vì sao trend vẫn tồn tại dù AI mạnh hơn?
+- Điều gì làm trend fail?
+- Tôi sẽ nhận diện chop bằng cách nào?
+- Tôi có chấp nhận bỏ qua nhiều lệnh để đợi lệnh đẹp hơn không?
 
 ---
 
-## Phan III. Bot 2.9.8 va bai toan "nhieu signal, hon 200 input"
+## Phần III. Bot 2.9.8 và bài toán "nhiều signal, hơn 200 input"
 
-### 1. Nhin dung van de
+### 1. Nhìn đúng vấn đề
 
-Mot bot co 4 nhom logic va hon 200 input khong mac dinh la xau. Nhung no chi tot khi moi input thuoc mot vai ro ro rang.
+Một bot có 4 nhóm logic và hơn 200 input không mặc định là xấu. Nhưng nó chỉ tốt khi mỗi input thuộc một vai trò rõ ràng.
 
-Neu khong, no se tao ra 3 ao giac:
+Nếu không, nó sẽ tạo ra 3 ảo giác:
 
-- `Ao giac bao phu`: tuong nhu danh duoc moi moi truong.
-- `Ao giac tinh chinh`: tuong nhu chi can vặn tham so la ra loi.
-- `Ao giac an toan`: tuong nhu DCA la lam giam rui ro.
+- `Ảo giác bao phủ`: tưởng như đánh được mọi môi trường.
+- `Ảo giác tinh chỉnh`: tưởng như chỉ cần vặn tham số là ra lời.
+- `Ảo giác an toàn`: tưởng như DCA là làm giảm rủi ro.
 
-### 2. Cac nhom input can tach ra
+### 2. Các nhóm input cần tách ra
 
-Khi co file `.set`, phan tich can tach thanh 4 tang:
+Khi có file `.set`, phân tích cần tách thành 4 tầng:
 
-- `Signal`: vao lenh vi ly do gi?
-- `Filter`: moi truong nao moi duoc vao?
-- `Sizing`: vao bao nhieu?
-- `Recovery`: sai thi xu ly ra sao?
+- `Signal`: vào lệnh vì lý do gì?
+- `Filter`: môi trường nào mới được vào?
+- `Sizing`: vào bao nhiêu?
+- `Recovery`: sai thì xử lý ra sao?
 
-### 3. Cac cau hoi phai tra loi
+### 3. Các câu hỏi phải trả lời
 
-- Neu chi giu signal ma bo DCA, bot con co expectancy duong khong?
-- Neu bo mot nhom filter, equity curve xau len bao nhieu?
-- Neu doi tu XAUUSD sang EURUSD hay GBPUSD, logic con giu duoc khong?
-- Neu gap giai doan sideway dai, bot song duoc khong?
+- Nếu chỉ giữ signal mà bỏ DCA, bot còn có expectancy dương không?
+- Nếu bỏ một nhóm filter, equity curve xấu lên bao nhiêu?
+- Nếu đổi từ XAUUSD sang EURUSD hay GBPUSD, logic còn giữ được không?
+- Nếu gặp giai đoạn sideway dài, bot sống được không?
 
-### 4. Nhan dinh tam thoi ve truong hop XAUUSD + Ichimoku breakout
+### 4. Nhận định tạm thời về trường hợp XAUUSD + Ichimoku breakout
 
-Truong hop ban neu ra rat dang dao sau. Gia thuyet lam viec tot nhat hien tai la:
+Trường hợp bạn nêu ra rất đáng đào sâu. Giả thuyết làm việc tốt nhất hiện tại là:
 
-- Ichimoku breakout co the khong phai alpha duy nhat.
-- Alpha that co the den tu trend persistence va continuation cua vang.
-- DCA dang co the dong vai tro lam mem duong von nhieu hon la tao edge.
-- Vang co nhung phase co narrative va dong tien ro hon nen breakout de "song" hon nhieu cap khac.
+- Ichimoku breakout có thể không phải alpha duy nhất.
+- Alpha thật có thể đến từ trend persistence và continuation của vàng.
+- DCA đang có thể đóng vai trò làm mềm đường vốn nhiều hơn là tạo edge.
+- Vàng có những phase có narrative và dòng tiền rõ hơn nên breakout dễ "sống" hơn nhiều cặp khác.
 
-Khong nen ket luan som la "Ichimoku than ky". Viec dung can lam la `ablation test`.
+Không nên kết luận sớm là "Ichimoku thần kỳ". Việc đúng cần làm là `ablation test`.
 
-### 5. Framework backtest dung cho bot 2.9.8
+### 5. Framework backtest đúng cho bot 2.9.8
 
-Khong co cach backtest nao hop cho moi moi truong. Co `framework backtest` hop cho nhieu loai moi truong:
+Không có cách backtest nào hợp cho mọi môi trường. Có `framework backtest` hợp cho nhiều loại môi trường:
 
-1. Test signal goc, khong DCA.
-2. Test signal goc + filter.
-3. Test signal goc + filter + sizing.
-4. Test them recovery nhu mot lop bo sung.
-5. Chay stress test spread/slippage/session/news.
-6. Chay out-of-sample.
-7. Chay parameter stability, khong tim diem dep nhat.
+1. Test signal gốc, không DCA.
+2. Test signal gốc + filter.
+3. Test signal gốc + filter + sizing.
+4. Test thêm recovery như một lớp bổ sung.
+5. Chạy stress test spread/slippage/session/news.
+6. Chạy out-of-sample.
+7. Chạy parameter stability, không tìm điểm đẹp nhất.
 
-Neu buoc 1-3 khong co edge ma buoc 4 moi dep, thi he thong dang ban tail risk.
+Nếu bước 1-3 không có edge mà bước 4 mới đẹp, thì hệ thống đang bán tail risk.
 
-### Bai tap ve nha 03
+### Bài tập về nhà 03
 
-Khi bo file `.set` vao workspace, tao bang:
+Khi bỏ file `.set` vào workspace, tạo bảng:
 
-| Input | Nhom | Gia thuyet tac dung | Muc do quan trong | Co the bo? |
+| Input | Nhóm | Giả thuyết tác dụng | Mức độ quan trọng | Có thể bỏ? |
 | --- | --- | --- | --- | --- |
 
-Muc tieu cua bai tap nay la ep hon 200 input xuong:
+Mục tiêu của bài tập này là ép hơn 200 input xuống:
 
-- 10-15 input cot song
-- 20-30 input phu
-- phan con lai dua vao nhom "chua chung minh duoc gia tri"
+- 10-15 input cột sống
+- 20-30 input phụ
+- phần còn lại đưa vào nhóm "chưa chứng minh được giá trị"
 
 ---
 
-## Phan IV. Bon co may kiem tien
+## Phần IV. Bốn cỗ máy kiếm tiền
 
-### 1. Co may 1: Trader Engine
+### 1. Cỗ máy 1: Trader Engine
 
-Day la he thong ra tien truc tiep tu trading.
+Đây là hệ thống ra tiền trực tiếp từ trading.
 
-Muc tieu:
+Mục tiêu:
 
-- 1 engine chu luc cho XAUUSD
-- 1 engine phu cho mot ro FX nho
-- MQL5 de live
-- co risk engine ro rang
+- 1 engine chủ lực cho XAUUSD
+- 1 engine phụ cho một rổ FX nhỏ
+- MQL5 để live
+- có risk engine rõ ràng
 
-Output bat buoc:
+Output bắt buộc:
 
 - strategy spec
-- setfile chinh
-- dashboard ket qua
-- nhat ky theo ngay
+- setfile chính
+- dashboard kết quả
+- nhật ký theo ngày
 
-### 2. Co may 2: Research Engine
+### 2. Cỗ máy 2: Research Engine
 
-Day la bo may giup ban khong dung yen o mot phien ban bot.
+Đây là bộ máy giúp bạn không đứng yên ở một phiên bản bot.
 
-Muc tieu:
+Mục tiêu:
 
-- moi ngay 1 note gia thuyet
-- moi tuan 1 report
-- moi thang 1 danh sach giu/bo
+- mỗi ngày 1 note giả thuyết
+- mỗi tuần 1 report
+- mỗi tháng 1 danh sách giữ/bỏ
 
-Khong co research engine, trader engine se dan tro nen me tin va bi thi truong "lay lai hoc phi".
+Không có research engine, trader engine sẽ dần trở nên mê tín và bị thị trường "lấy lại học phí".
 
-### 3. Co may 3: Product Engine
+### 3. Cỗ máy 3: Product Engine
 
-Day la cach dong goi nhung thu ban da xay:
+Đây là cách đóng gói những thứ bạn đã xây:
 
-- bo setfile
-- bo playbook
-- bo bao cao
-- bo giao trinh cho nguoi hoc
+- bộ setfile
+- bộ playbook
+- bộ báo cáo
+- bộ giáo trình cho người học
 
-Neu lam dung, day la cau noi giua trading thuc chien va viec mo rong thu nhap.
+Nếu làm đúng, đây là cầu nối giữa trading thực chiến và việc mở rộng thu nhập.
 
-### 4. Co may 4: Distribution Engine
+### 4. Cỗ máy 4: Distribution Engine
 
-Day la affiliate, referral, content, case study, va onboarding.
+Đây là affiliate, referral, content, case study, và onboarding.
 
-Hung de xuat xem day la mot nghe phu hop neu ban giu dung tinh than:
+Hưng đề xuất xem đây là một nghề phù hợp nếu bạn giữ đúng tinh thần:
 
-- khong lua nguoi moi vao overtrade
-- khong ban giac mo giau nhanh
-- khong dung ref nhu KPI duy nhat
-- lay `trader survival` lam KPI hang dau
+- không lừa người mới vào overtrade
+- không bán giấc mơ giàu nhanh
+- không dùng ref như KPI duy nhất
+- lấy `trader survival` làm KPI hàng đầu
 
-Ref broker nhu Exness, XM, hoac cac san khac co the la mot "chanh nghiep" neu vai tro cua ban la:
+Ref broker như Exness, XM, hoặc các sàn khác có thể là một "chánh nghiệp" nếu vai trò của bạn là:
 
-- giup trader vao dung loai tai khoan
-- giup ho hieu risk
-- giup ho co quy trinh giao dich ro rang
-- giup ho song sot lau hon trong thi truong
+- giúp trader vào đúng loại tài khoản
+- giúp họ hiểu risk
+- giúp họ có quy trình giao dịch rõ ràng
+- giúp họ sống sót lâu hơn trong thị trường
 
-### Bai tap ve nha 04
+### Bài tập về nhà 04
 
-Viet file `memory/brokers/affiliate-manifesto.md` tra loi:
+Viết file `memory/brokers/affiliate-manifesto.md` trả lời:
 
-- Toi dang giup trader dieu gi?
-- Toi tu choi lam nhung dieu gi?
-- Trader nao phu hop vao he thong cua toi?
-- KPI thanh cong cua toi co nhung gi ngoai volume?
+- Tôi đang giúp trader điều gì?
+- Tôi từ chối làm những điều gì?
+- Trader nào phù hợp vào hệ thống của tôi?
+- KPI thành công của tôi có những gì ngoài volume?
 
 ---
 
-## Phan V. One-click setup xuyen suot qua trinh hoc
+## Phần V. One-click setup xuyên suốt quá trình học
 
-### 1. Muc tieu cua one-click
+### 1. Mục tiêu của one-click
 
-One-click khong chi de cai may. One-click phai giup:
+One-click không chỉ để cài máy. One-click phải giúp:
 
-- vao bai hoc hom nay ngay lap tuc
-- mo dung note can viet
-- nho minh dang hoc den dau
-- tao report dung mau
-- giam ma sat trong viec hoc va nghien cuu
+- vào bài học hôm nay ngay lập tức
+- mở đúng note cần viết
+- nhớ mình đang học đến đâu
+- tạo report đúng mẫu
+- giảm ma sát trong việc học và nghiên cứu
 
-Neu moi ngay ban phai tu nho "hom nay mo file nao", "viet vao dau", "prompt nao dung", thi he thong chua tot.
+Nếu mỗi ngày bạn phải tự nhớ "hôm nay mở file nào", "viết vào đâu", "prompt nào đúng", thì hệ thống chưa tốt.
 
-### 2. Kien truc moi truong
+### 2. Kiến trúc môi trường
 
-Workspace phai co 6 nhom:
+Workspace phải có 6 nhóm:
 
-- `docs/`: tai lieu goc, bao cao, playbook
-- `memory/`: tri thuc da duoc chot
-- `research/`: gia thuyet, ket qua test, bang so sanh
-- `journals/`: nhat ky giao dich va nhat ky hoc
-- `reports/`: tong ket tuan, tong ket thang
-- `scripts/`: lenh khoi dong va bootstrap
+- `docs/`: tài liệu gốc, báo cáo, playbook
+- `memory/`: tri thức đã được chốt
+- `research/`: giả thuyết, kết quả test, bảng so sánh
+- `journals/`: nhật ký giao dịch và nhật ký học
+- `reports/`: tổng kết tuần, tổng kết tháng
+- `scripts/`: lệnh khởi động và bootstrap
 
-### 3. Luong one-click tu dau den cuoi
+### 3. Luồng one-click từ đầu đến cuối
 
-#### Luc moi cai may
+#### Lúc mới cài máy
 
-Chay:
+Chạy:
 
 ```powershell
 .\scripts\bootstrap\windows\setup.ps1
 ```
 
-Script nay phai:
+Script này phải:
 
-- kiem tra `git`
-- kiem tra `python`
-- kiem tra `uv`
-- kiem tra `node`
-- kiem tra `codex`
-- kiem tra `antigravity`
-- tao cay thu muc
-- tao cac file mau neu chua co
-- tao alias PowerShell cho workflow
+- kiểm tra `git`
+- kiểm tra `python`
+- kiểm tra `uv`
+- kiểm tra `node`
+- kiểm tra `codex`
+- kiểm tra `antigravity`
+- tạo cây thư mục
+- tạo các file mẫu nếu chưa có
+- tạo alias PowerShell cho workflow
 
-#### Luc bat dau ngay hoc
+#### Lúc bắt đầu ngày học
 
-Chay:
+Chạy:
 
 ```powershell
 .\scripts\start\qstart.ps1
 ```
 
-Script nay phai:
+Script này phải:
 
-- in ra bai hoc hom nay
-- nhac 4 buoc trong 90 phut
-- chi duong den file note can viet
-- chi duong den command review
+- in ra bài học hôm nay
+- nhắc 4 bước trong 90 phút
+- chỉ đường đến file note cần viết
+- chỉ đường đến command review
 
-#### Luc vao bai hoc cu the
+#### Lúc vào bài học cụ thể
 
-Chay:
+Chạy:
 
 ```powershell
 .\scripts\start\qday.ps1 -Day 8
 ```
 
-Script nay phai:
+Script này phải:
 
-- mo template note cua ngay do
-- nhac bai tap ve nha
-- chi file can doc
-- tao output file neu chua ton tai
+- mở template note của ngày đó
+- nhắc bài tập về nhà
+- chỉ file cần đọc
+- tạo output file nếu chưa tồn tại
 
-#### Luc tong ket tuan
+#### Lúc tổng kết tuần
 
-Chay:
+Chạy:
 
 ```powershell
 .\scripts\start\qreview.ps1 -Week 1
 ```
 
-Script nay phai:
+Script này phải:
 
-- tao file report tuan
-- tong hop bai hoc
-- ep ban ra quyet dinh giu/bo
+- tạo file report tuần
+- tổng hợp bài học
+- ép bạn ra quyết định giữ/bỏ
 
-### 4. Memory phai duoc luu the nao
+### 4. Memory phải được lưu thế nào
 
-Moi file trong `memory/` phai co 6 muc:
+Mỗi file trong `memory/` phải có 6 mục:
 
-1. Gia thuyet
-2. Ly do tin
-3. Cach kiem chung
-4. Ket qua hien tai
-5. Quyet dinh
-6. Lenh goi lai
+1. Giả thuyết
+2. Lý do tin
+3. Cách kiểm chứng
+4. Kết quả hiện tại
+5. Quyết định
+6. Lệnh gọi lại
 
-Vi du:
+Ví dụ:
 
 ```md
 # XAUUSD Trend Persistence
 
-## Gia thuyet
-Vang co xu huong duy tri breakout tot hon mot so cap FX trong nhung giai doan co dong luc va vol hop le.
+## Giả thuyết
+Vàng có xu hướng duy trì breakout tốt hơn một số cặp FX trong những giai đoạn có động lực và vol hợp lệ.
 
-## Ly do tin
+## Lý do tin
 ...
 
-## Cach kiem chung
+## Cách kiểm chứng
 ...
 
-## Ket qua hien tai
+## Kết quả hiện tại
 ...
 
-## Quyet dinh
-Tam giu de test tiep.
+## Quyết định
+Tạm giữ để test tiếp.
 
-## Lenh goi lai
+## Lệnh gọi lại
 qday 08
 ```
 
 ---
 
-## Phan VI. Lo trinh 30 ngay
+## Phần VI. Lộ trình 30 ngày
 
-Moi ngay co 4 tru cot:
+Mỗi ngày có 4 trụ cột:
 
-- `Hoc`: khong hoc rong, chi hoc mot concept.
-- `Lam`: phai dong tay vao chart, bot, hay he thong.
-- `Viet`: de lai dau vet tri thuc.
-- `Goi lenh`: dung one-click de giam ma sat.
+- `Học`: không học rộng, chỉ học một concept.
+- `Làm`: phải động tay vào chart, bot, hay hệ thống.
+- `Viết`: để lại dấu vết tri thức.
+- `Gọi lệnh`: dùng one-click để giảm ma sát.
 
-### Tuan 1. Xay nen tu duy dung
+### Tuần 1. Xây nền tư duy đúng
 
-#### Ngay 1. Dinh nghia nghe
+#### Ngày 1. Định nghĩa nghề
 
-- Hoc:
-  - Expectancy la gi.
-  - Vi sao winrate cao chua chac la tot.
-- Lam:
-  - Viet lai dinh nghia ca nhan ve trading co loi nhuan.
-- Viet:
+- Học:
+  - Expectancy là gì.
+  - Vì sao winrate cao chưa chắc là tốt.
+- Làm:
+  - Viết lại định nghĩa cá nhân về trading có lợi nhuận.
+- Viết:
   - `memory/concepts/edge-definition.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 1`
 
-#### Ngay 2. Cung cau va dong luc
+#### Ngày 2. Cung cầu và động lực
 
-- Hoc:
-  - Thi truong la mot auction.
-- Lam:
-  - Nhin 10 chart XAUUSD va note nhung doan co dong luc ro.
-- Viet:
+- Học:
+  - Thị trường là một auction.
+- Làm:
+  - Nhìn 10 chart XAUUSD và note những đoạn có động lực rõ.
+- Viết:
   - `memory/concepts/auction-logic-xauusd.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 2`
 
-#### Ngay 3. Trend ton tai vi sao
+#### Ngày 3. Trend tồn tại vì sao
 
-- Hoc:
+- Học:
   - Trend persistence.
-  - Dong tien va vi the.
-- Lam:
-  - Giai thich trend cho mot nguoi moi trong 15 dong.
-- Viet:
+  - Dòng tiền và vị thế.
+- Làm:
+  - Giải thích trend cho một người mới trong 15 dòng.
+- Viết:
   - `memory/concepts/why-trend-still-works.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 3`
 
-#### Ngay 4. Bot cua minh dang lam gi
+#### Ngày 4. Bot của mình đang làm gì
 
-- Hoc:
-  - Signal, filter, sizing, recovery la 4 tang khac nhau.
-- Lam:
-  - Ve so do bot 2.9.8 bang tay.
-- Viet:
+- Học:
+  - Signal, filter, sizing, recovery là 4 tầng khác nhau.
+- Làm:
+  - Vẽ sơ đồ bot 2.9.8 bằng tay.
+- Viết:
   - `memory/bots/bot-298-architecture.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 4`
 
-#### Ngay 5. Tu phan bien bot minh
+#### Ngày 5. Tự phản biện bot mình
 
-- Hoc:
-  - Tail risk va risk of ruin.
-- Lam:
-  - Viet 5 cach bot co the chet.
-- Viet:
+- Học:
+  - Tail risk và risk of ruin.
+- Làm:
+  - Viết 5 cách bot có thể chết.
+- Viết:
   - `memory/bots/bot-298-antithesis.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 5`
 
-#### Ngay 6. Don dep signal
+#### Ngày 6. Dọn dẹp signal
 
-- Hoc:
-  - Signal nao co logic kinh te, signal nao chi la trigger.
-- Lam:
-  - Xep hang cac signal hien co.
-- Viet:
+- Học:
+  - Signal nào có logic kinh tế, signal nào chỉ là trigger.
+- Làm:
+  - Xếp hạng các signal hiện có.
+- Viết:
   - `research/signal-scorecard.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 6`
 
-#### Ngay 7. Chot thesis tuan 1
+#### Ngày 7. Chốt thesis tuần 1
 
-- Hoc:
-  - Lam it hon nhung chat hon.
-- Lam:
-  - Chon truc nghien cuu thang dau.
-- Viet:
+- Học:
+  - Làm ít hơn nhưng chất hơn.
+- Làm:
+  - Chọn trục nghiên cứu tháng đầu.
+- Viết:
   - `reports/week-01-review.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qreview.ps1 -Week 1`
 
-### Tuan 2. Xay engine co the song
+### Tuần 2. Xây engine có thể sống
 
-#### Ngay 8. Dao sau XAUUSD + Ichimoku breakout
+#### Ngày 8. Đào sâu XAUUSD + Ichimoku breakout
 
-- Hoc:
-  - Breakout va continuation.
-- Lam:
-  - Chon 20 lenh thang, 20 lenh thua de doi chieu.
-- Viet:
+- Học:
+  - Breakout và continuation.
+- Làm:
+  - Chọn 20 lệnh thắng, 20 lệnh thua để đối chiếu.
+- Viết:
   - `research/xauusd-ichimoku-hypothesis.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 8`
 
-#### Ngay 9. Viet strategy spec XAUUSD
+#### Ngày 9. Viết strategy spec XAUUSD
 
-- Hoc:
-  - Entry khong du, can invalidation.
-- Lam:
-  - Viet rule set du ro de nguoi khac test duoc.
-- Viet:
+- Học:
+  - Entry không đủ, cần invalidation.
+- Làm:
+  - Viết rule set đủ rõ để người khác test được.
+- Viết:
   - `docs/playbooks/xauusd-trend-engine.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 9`
 
-#### Ngay 10. Dung regime filter
+#### Ngày 10. Dựng regime filter
 
-- Hoc:
+- Học:
   - Trend day, chop day, news day.
-- Lam:
-  - Gan moi ngay giao dich mau vao mot regime.
-- Viet:
+- Làm:
+  - Gán mỗi ngày giao dịch mẫu vào một regime.
+- Viết:
   - `memory/concepts/regime-map.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 10`
 
-#### Ngay 11. Dung risk engine
+#### Ngày 11. Dựng risk engine
 
-- Hoc:
+- Học:
   - Risk per trade, per campaign, per day.
-- Lam:
-  - Dat hard stop cho tai khoan va cho he thong.
-- Viet:
+- Làm:
+  - Đặt hard stop cho tài khoản và cho hệ thống.
+- Viết:
   - `docs/playbooks/risk-engine.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 11`
 
-#### Ngay 12. Dat DCA dung cho
+#### Ngày 12. Đặt DCA đúng chỗ
 
-- Hoc:
-  - DCA la overlay, khong phai alpha.
-- Lam:
-  - Thiet ke 3 mode:
+- Học:
+  - DCA là overlay, không phải alpha.
+- Làm:
+  - Thiết kế 3 mode:
     - no DCA
     - capped scale-in
     - limited recovery
-- Viet:
+- Viết:
   - `docs/playbooks/dca-safety-framework.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 12`
 
-#### Ngay 13. Guard execution
+#### Ngày 13. Guard execution
 
-- Hoc:
+- Học:
   - Spread, slippage, news blackout.
-- Lam:
-  - Liet ke 10 truong hop backtest dep nhung live te.
-- Viet:
+- Làm:
+  - Liệt kê 10 trường hợp backtest đẹp nhưng live tệ.
+- Viết:
   - `memory/concepts/execution-guard.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 13`
 
-#### Ngay 14. Chot 2 engine tam thoi
+#### Ngày 14. Chốt 2 engine tạm thời
 
-- Hoc:
-  - It nhung ro hon.
-- Lam:
-  - Chot engine A va B.
-- Viet:
+- Học:
+  - Ít nhưng rõ hơn.
+- Làm:
+  - Chốt engine A và B.
+- Viết:
   - `reports/week-02-review.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qreview.ps1 -Week 2`
 
-### Tuan 3. Backtest nhu nguoi nghien cuu
+### Tuần 3. Backtest như người nghiên cứu
 
-#### Ngay 15. Protocol
+#### Ngày 15. Protocol
 
-- Hoc:
+- Học:
   - In-sample, out-of-sample, stress assumptions.
-- Lam:
-  - Viet protocol test.
-- Viet:
+- Làm:
+  - Viết protocol test.
+- Viết:
   - `research/backtest-protocol.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 15`
 
-#### Ngay 16. Test signal goc
+#### Ngày 16. Test signal gốc
 
-- Hoc:
-  - Signal phai tu dung duoc.
-- Lam:
-  - Test signal khong DCA.
-- Viet:
+- Học:
+  - Signal phải tự đứng được.
+- Làm:
+  - Test signal không DCA.
+- Viết:
   - `research/signal-alone-test.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 16`
 
-#### Ngay 17. Test filter
+#### Ngày 17. Test filter
 
-- Hoc:
-  - Filter that su co tac dung gi.
-- Lam:
-  - Bat tat tung filter.
-- Viet:
+- Học:
+  - Filter thật sự có tác dụng gì.
+- Làm:
+  - Bật tắt từng filter.
+- Viết:
   - `research/filter-ablation.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 17`
 
-#### Ngay 18. Test sizing
+#### Ngày 18. Test sizing
 
-- Hoc:
-  - Size sai co the giet mot edge tot.
-- Lam:
-  - So sanh fixed lot, fixed fractional, vol-adjusted.
-- Viet:
+- Học:
+  - Size sai có thể giết một edge tốt.
+- Làm:
+  - So sánh fixed lot, fixed fractional, vol-adjusted.
+- Viết:
   - `research/sizing-comparison.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 18`
 
-#### Ngay 19. Stress test
+#### Ngày 19. Stress test
 
-- Hoc:
-  - Thi truong thuc te xau hon backtest.
-- Lam:
+- Học:
+  - Thị trường thực tế xấu hơn backtest.
+- Làm:
   - Spread x2, slippage x2, session shift.
-- Viet:
+- Viết:
   - `research/stress-test.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 19`
 
-#### Ngay 20. Parameter stability
+#### Ngày 20. Parameter stability
 
-- Hoc:
-  - Dung tim vung on dinh, khong tim diem dep.
-- Lam:
-  - Ghi nhan tham so nhay cam.
-- Viet:
+- Học:
+  - Đừng tìm vùng ổn định, không tìm điểm đẹp.
+- Làm:
+  - Ghi nhận tham số nhạy cảm.
+- Viết:
   - `research/parameter-stability.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 20`
 
-#### Ngay 21. Chot nguoi o lai
+#### Ngày 21. Chốt người ở lại
 
-- Hoc:
-  - He thong nao song duoc moi xung dang duoc scale.
-- Lam:
-  - Chon he thong giu lai.
-- Viet:
+- Học:
+  - Hệ thống nào sống được mới xứng đáng được scale.
+- Làm:
+  - Chọn hệ thống giữ lại.
+- Viết:
   - `reports/week-03-review.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qreview.ps1 -Week 3`
 
-### Tuan 4. Tu trader thanh operator
+### Tuần 4. Từ trader thành operator
 
-#### Ngay 22. Live ops
+#### Ngày 22. Live ops
 
-- Hoc:
-  - Van hanh quan trong ngang entry.
-- Lam:
-  - Viet SOP live.
-- Viet:
+- Học:
+  - Vận hành quan trọng ngang entry.
+- Làm:
+  - Viết SOP live.
+- Viết:
   - `docs/playbooks/live-ops-sop.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 22`
 
-#### Ngay 23. Research loop
+#### Ngày 23. Research loop
 
-- Hoc:
-  - Nghien cuu khong co nhip se tro thanh tich note vo nghia.
-- Lam:
-  - Dat lich moi ngay 1 note, moi tuan 1 review.
-- Viet:
+- Học:
+  - Nghiên cứu không có nhịp sẽ trở thành tích note vô nghĩa.
+- Làm:
+  - Đặt lịch mỗi ngày 1 note, mỗi tuần 1 review.
+- Viết:
   - `docs/playbooks/research-loop.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 23`
 
-#### Ngay 24. Product hoa
+#### Ngày 24. Product hóa
 
-- Hoc:
-  - Tai san tri tue cung can dong goi.
-- Lam:
-  - Xac dinh bo tai lieu, bo setfile, bo report.
-- Viet:
+- Học:
+  - Tài sản trí tuệ cũng cần đóng gói.
+- Làm:
+  - Xác định bộ tài liệu, bộ setfile, bộ report.
+- Viết:
   - `docs/playbooks/product-engine.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 24`
 
-#### Ngay 25. Affiliate dung nghia
+#### Ngày 25. Affiliate đúng nghĩa
 
-- Hoc:
-  - Ref cung la nghe dich vu.
-- Lam:
-  - Thiet ke onboarding cho trader moi.
-- Viet:
+- Học:
+  - Ref cũng là nghề dịch vụ.
+- Làm:
+  - Thiết kế onboarding cho trader mới.
+- Viết:
   - `docs/playbooks/affiliate-engine.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 25`
 
-#### Ngay 26. Day duoc cho nguoi khac
+#### Ngày 26. Dạy được cho người khác
 
-- Hoc:
-  - Cai gi day duoc moi la cai hieu that.
-- Lam:
-  - Viet de cuong 3 bai:
-    - edge la gi
-    - vi sao 95% trader thua
-    - DCA cuu hay giet
-- Viet:
+- Học:
+  - Cái gì dạy được mới là cái hiểu thật.
+- Làm:
+  - Viết đề cương 3 bài:
+    - edge là gì
+    - vì sao 95% trader thua
+    - DCA cứu hay giết
+- Viết:
   - `docs/playbooks/teaching-outline.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 26`
 
-#### Ngay 27. Chuan hoa memory
+#### Ngày 27. Chuẩn hóa memory
 
-- Hoc:
-  - Tri thuc muon dung lai duoc phai co taxonomy.
-- Lam:
-  - Don dep va di chuyen file note ve dung cho.
-- Viet:
+- Học:
+  - Tri thức muốn dùng lại được phải có taxonomy.
+- Làm:
+  - Dọn dẹp và di chuyển file note về đúng chỗ.
+- Viết:
   - `docs/playbooks/knowledge-base-map.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 27`
 
-#### Ngay 28. Kiem tra one-click tren thuc te
+#### Ngày 28. Kiểm tra one-click trên thực tế
 
-- Hoc:
-  - He thong tot phai khoi dong nhanh.
-- Lam:
-  - Chay thu setup tren may sach hoac user moi.
-- Viet:
+- Học:
+  - Hệ thống tốt phải khởi động nhanh.
+- Làm:
+  - Chạy thử setup trên máy sạch hoặc user mới.
+- Viết:
   - `reports/bootstrap-test.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 28`
 
-#### Ngay 29. Nhip 90 phut moi ngay
+#### Ngày 29. Nhịp 90 phút mỗi ngày
 
-- Hoc:
-  - Ban khong can ca ngay de tien bo.
-- Lam:
-  - Chot routine 90 phut:
-    - 15 phut review
-    - 25 phut nghien cuu
-    - 25 phut test/ghi chep
-    - 25 phut tong ket
-- Viet:
+- Học:
+  - Bạn không cần cả ngày để tiến bộ.
+- Làm:
+  - Chốt routine 90 phút:
+    - 15 phút review
+    - 25 phút nghiên cứu
+    - 25 phút test/ghi chép
+    - 25 phút tổng kết
+- Viết:
   - `docs/playbooks/daily-rhythm.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qday.ps1 -Day 29`
 
-#### Ngay 30. Lenh cho thang 2
+#### Ngày 30. Lệnh cho tháng 2
 
-- Hoc:
-  - Cat bo va chon loc la nang luc quan trong.
-- Lam:
-  - Chot:
-    - engine nao scale
-    - engine nao dung
-    - san pham nao dong goi
-    - kenh nao tiep tuc xay
-- Viet:
+- Học:
+  - Cắt bỏ và chọn lọc là năng lực quan trọng.
+- Làm:
+  - Chốt:
+    - engine nào scale
+    - engine nào dừng
+    - sản phẩm nào đóng gói
+    - kênh nào tiếp tục xây
+- Viết:
   - `reports/month-02-order.md`
-- Goi lenh:
+- Gọi lệnh:
   - `.\scripts\start\qreview.ps1 -Week 4`
 
 ---
 
-## Phan VII. Tieu chuan ra quyet dinh
+## Phần VII. Tiêu chuẩn ra quyết định
 
-Mot chien luoc duoc phep song tiep chi khi dat du 5 cong:
+Một chiến lược được phép sống tiếp chỉ khi đạt đủ 5 cổng:
 
-1. Co logic kinh te hoac microstructure toi thieu.
-2. Co ket qua chap nhan duoc khi bo recovery.
-3. Co stress test khong gay vo toan bo thesis.
-4. Co tham so tuong doi on dinh.
-5. Co risk of ruin phu hop voi quy mo von that.
+1. Có logic kinh tế hoặc microstructure tối thiểu.
+2. Có kết quả chấp nhận được khi bỏ recovery.
+3. Có stress test không gây vỡ toàn bộ thesis.
+4. Có tham số tương đối ổn định.
+5. Có risk of ruin phù hợp với quy mô vốn thật.
 
-Neu thieu 1 trong 5 cong nay, chien luoc chua duoc phep goi la cot song.
+Nếu thiếu 1 trong 5 cổng này, chiến lược chưa được phép gọi là cột sống.
 
 ---
 
-## Phan VIII. Tu duy backtest MQL5 cho bot multi-logic
+## Phần VIII. Tư duy backtest MQL5 cho bot multi-logic
 
-### 1. Khong backtest theo kieu "nap set va xem loi nhuan"
+### 1. Không backtest theo kiểu "nạp set và xem lợi nhuận"
 
-Voi mot bot nhu 2.9.8, backtest theo kieu nap set vao roi xem duong von la cach nhanh nhat de tu lua minh.
+Với một bot như 2.9.8, backtest theo kiểu nạp set vào rồi xem đường vốn là cách nhanh nhất để tự lừa mình.
 
-Ly do:
+Lý do:
 
-- Bot co nhieu lop logic.
-- Nhieu lop dang tat, nhieu lop dang bat.
-- DCA va sniper co the che mat alpha that.
-- Ket qua dep co the chi den tu viec thi truong lich su chua gap dung pha xau nhat.
+- Bot có nhiều lớp logic.
+- Nhiều lớp đang tắt, nhiều lớp đang bật.
+- DCA và sniper có thể che mất alpha thật.
+- Kết quả đẹp có thể chỉ đến từ việc thị trường lịch sử chưa gặp đúng pha xấu nhất.
 
-Backtest dung phai tra loi duoc:
+Backtest đúng phải trả lời được:
 
-1. Signal nay co expectancy rieng khong?
-2. DCA dang giup toi uu hay che bai?
-3. Khoang cach DCA dang dung co phu hop voi bien dong that cua symbol khong?
-4. Bo set co nhay voi digit, spread, session, va broker config khong?
+1. Signal này có expectancy riêng không?
+2. DCA đang giúp tối ưu hay che đậy?
+3. Khoảng cách DCA đang dùng có phù hợp với biến động thật của symbol không?
+4. Bộ set có nhạy với digit, spread, session, và broker config không?
 
-### 2. Digit sensitivity la bai toan phai xu ly som
+### 2. Digit sensitivity là bài toán phải xử lý sớm
 
-Day la mot diem rat thuc chien. Cung mot tham so `10` nhung:
+Đây là một điểm rất thực chiến. Cùng một tham số `10` nhưng:
 
-- san 2 digit
-- san 3 digit
-- san 5 digit
+- sàn 2 digit
+- sàn 3 digit
+- sàn 5 digit
 
-co the cho ra y nghia hoan toan khac nhau neu code dang xu ly theo `point`, `pip`, hay `gia tri gia truc tiep`.
+có thể cho ra ý nghĩa hoàn toàn khác nhau nếu code đang xử lý theo `point`, `pip`, hay `giá trị giá trực tiếp`.
 
-Vi vay, khi doc bat ky set nao, phai tu hoi:
+Vì vậy, khi đọc bất kỳ set nào, phải tự hỏi:
 
-- Bien khoang cach nay dang tinh theo `Point`, `Pip`, hay `Price`?
-- Broker nay quote bao nhieu digits?
-- Symbol nay co tick size la bao nhieu?
-- Vang, forex, crypto, index co chung mot quy tac chuyen doi khong?
+- Biến khoảng cách này đang tính theo `Point`, `Pip`, hay `Price`?
+- Broker này quote bao nhiêu digits?
+- Symbol này có tick size là bao nhiêu?
+- Vàng, forex, crypto, index có chung một quy tắc chuyển đổi không?
 
-Neu khong co lop chuan hoa digit, set rat de:
+Nếu không có lớp chuẩn hóa digit, set rất dễ:
 
-- qua chat tren san nay
-- qua rong tren san khac
-- backtest dep nhung live te
+- quá chặt trên sàn này
+- quá rộng trên sàn khác
+- backtest đẹp nhưng live tệ
 
-### 3. Cach dung de chon khoang DCA
+### 3. Cách đúng để chọn khoảng DCA
 
-Khong chon khoang cach DCA bang cam giac. Cung khong chon bang mot con so "nhin thay hay".
+Không chọn khoảng cách DCA bằng cảm giác. Cũng không chọn bằng một con số "nhìn thấy hay".
 
-Thu tu dung:
+Thứ tự đúng:
 
-1. Lay du lieu lich su cua symbol theo khung gio dang dung.
-2. Do phan bo bien dong:
+1. Lấy dữ liệu lịch sử của symbol theo khung giờ đang dùng.
+2. Đo phân bố biến động:
    - median range
    - ATR
    - adverse excursion
-   - khoang gia giua cac lan swing nguoc
-3. Chuan hoa ve cung mot don vi:
+   - khoảng giá giữa các lần swing ngược
+3. Chuẩn hóa về cùng một đơn vị:
    - point
    - pip
    - ATR multiple
-4. Dung phan bo nay de de xuat:
+4. Dùng phân bố này để đề xuất:
    - `distance0`
    - `distance ladder`
    - `hard stop zone`
-5. Sau do moi backtest.
+5. Sau đó mới backtest.
 
-Noi ngan gon:
+Nói ngắn gọn:
 
-`doc pho gia truoc, dat DCA sau`
+`đọc phổ giá trước, đặt DCA sau`
 
-### 4. DCA phai la ham cua thi truong, khong phai ham cua su hy vong
+### 4. DCA phải là hàm của thị trường, không phải hàm của sự hy vọng
 
-Khoang DCA dung nen duoc hinh thanh tu:
+Khoảng DCA đúng nên được hình thành từ:
 
 - symbol
 - timeframe
@@ -866,17 +866,17 @@ Khoang DCA dung nen duoc hinh thanh tu:
 - signal mode
 - volatility regime
 
-Khong nen duoc hinh thanh tu:
+Không nên được hình thành từ:
 
-- cam giac "lan truoc de 10 thay on"
-- tam ly muon vao day hon cho nhanh hoi
-- thoi quen sao chep set giua cac broker
+- cảm giác "lần trước để 10 thấy ổn"
+- tâm lý muốn vào dày hơn cho nhanh hồi
+- thói quen sao chép set giữa các broker
 
-### 5. Khung nghien cuu dung cho bot 2.9.8
+### 5. Khung nghiên cứu đúng cho bot 2.9.8
 
-#### Lop 1. Symbol profile
+#### Lớp 1. Symbol profile
 
-Moi symbol can co 1 ho so:
+Mỗi symbol cần có 1 hồ sơ:
 
 - digits
 - point size
@@ -885,18 +885,18 @@ Moi symbol can co 1 ho so:
 - ATR median
 - session behavior
 
-#### Lop 2. Signal profile
+#### Lớp 2. Signal profile
 
-Moi signal can co 1 ho so:
+Mỗi signal cần có 1 hồ sơ:
 
-- tan suat vao lenh
-- adverse excursion trung vi
-- favorable excursion trung vi
-- ratio giua rung lac va xu huong
+- tần suất vào lệnh
+- adverse excursion trung vị
+- favorable excursion trung vị
+- ratio giữa rung lắc và xu hướng
 
-#### Lop 3. DCA profile
+#### Lớp 3. DCA profile
 
-Sau khi co 2 lop tren moi duoc de xuat:
+Sau khi có 2 lớp trên mới được đề xuất:
 
 - DCA start
 - DCA ladder
@@ -904,62 +904,62 @@ Sau khi co 2 lop tren moi duoc de xuat:
 - max lots
 - TP recovery
 
-#### Lop 4. Broker profile
+#### Lớp 4. Broker profile
 
-Moi broker phai co note rieng:
+Mỗi broker phải có note riêng:
 
 - digits
-- spread gio cao diem
-- spread gio tin
-- slippage co dien
+- spread giờ cao điểm
+- spread giờ tin
+- slippage cổ điển
 - symbol naming
 
-Khong co broker profile thi rat de test sai va set sai.
+Không có broker profile thì rất dễ test sai và set sai.
 
-### 6. Cong cu da them vao workspace
+### 6. Công cụ đã thêm vào workspace
 
-De bat dau theo huong nay, workspace da co:
+Để bắt đầu theo hướng này, workspace đã có:
 
 - `.\scripts\start\qanalyze-set.ps1 -SetFile .\demo.set`
 - `.\scripts\start\qanalyze-symbol-csv.ps1 -CsvFile .\data\XAUUSD_M15.csv`
 
-Script thu hai dung de doc CSV OHLC va de xuat range bien dong, adverse excursion co ban, va ladder DCA goi y.
+Script thứ hai dùng để đọc CSV OHLC và đề xuất range biến động, adverse excursion cơ bản, và ladder DCA gợi ý.
 
-### 7. Bai tap ve nha thuc chien
+### 7. Bài tập về nhà thực chiến
 
-1. Xuat du lieu XAUUSD tu broker thanh CSV theo khung gio ban trade nhieu nhat.
-2. Chay `qanalyze-symbol-csv.ps1`.
-3. Ghi ket qua vao `research/xauusd-price-spectrum.md`.
-4. Tao 3 set:
-   - set chat
-   - set vua
-   - set rong
-5. Backtest cung mot signal, cung mot khoang thoi gian, chi thay `distance ladder`.
+1. Xuất dữ liệu XAUUSD từ broker thành CSV theo khung giờ bạn trade nhiều nhất.
+2. Chạy `qanalyze-symbol-csv.ps1`.
+3. Ghi kết quả vào `research/xauusd-price-spectrum.md`.
+4. Tạo 3 set:
+   - set chặt
+   - set vừa
+   - set rộng
+5. Backtest cùng một signal, cùng một khoảng thời gian, chỉ thay `distance ladder`.
 
-Muc tieu khong phai tim bo dep nhat. Muc tieu la tim vung on dinh nhat.
-
----
-
-## Phan IX. Tinh than lam nghe
-
-Hung muon chot tai lieu nay bang mot quan diem rat ro:
-
-- Thi truong la noi minh vao hoc nghe, khong phai noi minh den de hon thua voi ai.
-- Ban co the kiem tien tu affiliate, tu bot, tu trading, tu dong goi tri thuc. Nhung neu ban khong ton trong nghe, som muon he thong cung bi hu.
-- Nguoi di duoc lau thuong khong phai nguoi khoe nhat. Thuong la nguoi biet rut bot cai toi, bot chay theo so dong, va bot tu lua minh.
-
-Neu ban hoc het 30 ngay nay mot cach nghiem tuc, muc tieu tot nhat khong phai la "tro thanh than dong". Muc tieu tot nhat la:
-
-- biet minh dang lam gi
-- biet minh dang dung vao loai edge nao
-- biet khi nao phai dung
-- biet cach de lai he thong cho minh va cho nguoi khac
-
-Do moi la nen cua mot trader co tu cach va co duong di dai hon.
+Mục tiêu không phải tìm bộ đẹp nhất. Mục tiêu là tìm vùng ổn định nhất.
 
 ---
 
-## Phu luc. Kien truc file de bat dau ngay
+## Phần IX. Tinh thần làm nghề
+
+Hưng muốn chốt tài liệu này bằng một quan điểm rất rõ:
+
+- Thị trường là nơi mình vào học nghề, không phải nơi mình đến để hơn thua với ai.
+- Bạn có thể kiếm tiền từ affiliate, từ bot, từ trading, từ đóng gói tri thức. Nhưng nếu bạn không tôn trọng nghề, sớm muộn hệ thống cũng bị hư.
+- Người đi được lâu thường không phải người khỏe nhất. Thường là người biết rút bớt cái tôi, bớt chạy theo số đông, và bớt tự lừa mình.
+
+Nếu bạn học hết 30 ngày này một cách nghiêm túc, mục tiêu tốt nhất không phải là "trở thành thần đồng". Mục tiêu tốt nhất là:
+
+- biết mình đang làm gì
+- biết mình đang đứng vào loại edge nào
+- biết khi nào phải dừng
+- biết cách để lại hệ thống cho mình và cho người khác
+
+Đó mới là nền của một trader có tư cách và có đường đi dài hơn.
+
+---
+
+## Phụ lục. Kiến trúc file để bắt đầu ngày
 
 ```text
 D:\code\trade
@@ -980,7 +980,7 @@ D:\code\trade
 `-- templates\
 ```
 
-### Lenh khoi dong de nho
+### Lệnh khởi động để nhớ
 
 ```powershell
 .\scripts\bootstrap\windows\setup.ps1
@@ -989,10 +989,10 @@ D:\code\trade
 .\scripts\start\qreview.ps1 -Week 1
 ```
 
-### Viec can lam tiep theo
+### Việc cần làm tiếp theo
 
-1. Doc file `demo.set` va tach bot thanh 4 lop: signal, filter, sizing, recovery.
-2. Chay script setup de tao bo khung hoc.
-3. Dung `.\scripts\start\qanalyze-set.ps1 -SetFile .\demo.set` de lay tong quan cau hinh.
-4. Xuat CSV gia va dung `.\scripts\start\qanalyze-symbol-csv.ps1 -CsvFile <duong_dan_csv>`.
-5. Bat dau tu Ngay 1, khong nhay coc.
+1. Đọc file `demo.set` và tách bot thành 4 lớp: signal, filter, sizing, recovery.
+2. Chạy script setup để tạo bộ khung học.
+3. Dùng `.\scripts\start\qanalyze-set.ps1 -SetFile .\demo.set` để lấy tổng quan cấu hình.
+4. Xuất CSV giá và dùng `.\scripts\start\qanalyze-symbol-csv.ps1 -CsvFile <duong_dan_csv>`.
+5. Bắt đầu từ Ngày 1, không nhảy cóc.
