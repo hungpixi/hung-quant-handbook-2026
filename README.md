@@ -2,35 +2,29 @@
 
 Bộ tài liệu này là một hệ `handbook + workbook` dành cho người đang học trading có hệ thống, nghiên cứu bot MQL5, và muốn biến việc học thành một workflow có thể lặp lại, dùng lại, và chia sẻ lại.
 
-## Thành phần chính
+## 1. Vấn đề gì?
+Phần lớn retail trader hiện nay gặp khó khăn vì làm sai trình tự học nghề: ưu tiên tìm tín hiệu thay vì xây dựng tư duy kiểm soát rủi ro, backtest sai kỹ thuật và sai môi trường, và bị nhiễu do "chỉnh sửa tham số theo cảm giác" mà không có cơ sở phân tích tĩnh (base theory).
 
-- `docs/HUNG_QUANT_HANDBOOK_2026.md`: bản sách chính.
-- `docs/HUNG_QUANT_HANDBOOK_2026.pdf`: bản PDF để đọc và chia sẻ.
-- `docs/HUNG_QUANT_WORKSHEETS_2026.md`: bộ worksheet riêng để làm bài tập.
-- `docs/HUNG_QUANT_WORKSHEETS_2026.pdf`: bản PDF worksheet để in hoặc giao bài.
-- `SIEU_BAO_CAO_CHIEN_LUOC_2026_V3_FINAL.md`: báo cáo chiến lược nền.
-- `scripts/bootstrap/windows/setup.ps1`: bootstrap workspace.
-- `scripts/start/*.ps1`: các lệnh workflow hằng ngày.
+## 2. Giải pháp này hơn cái cũ ở đâu?
+Cuốn handbook này không phải lý thuyết suông hay bán tín hiệu. Nó định hình một **hệ sinh thái workflow**:
+- **Tư duy Cốt lõi**: Simple systematic trend + Strong risk controls + Disciplined research loop.
+- **Workflow tích hợp**: Dùng CLI operations (`qstart`, `qday`, `qanalyze-set`) nhằm ép người dùng vào kỷ luật test và ghi log minh bạch từng phiên làm việc.
+- **Hệ thống Design Data-Driven**: Đề xuất khoảng DCA thông qua dữ liệu đọc phổ giá (OHLC CSV/Tick) thay vì cảm tính thị giác.
 
-## Cách dùng nhanh
+## 3. Trade-off là gì?
+- Cần sự kiên nhẫn: Yêu cầu ít nhất 30 ngày tập trung thực thi theo worksheet & checklist thay vì mì ăn liền.
+- Bạn phải làm việc với terminal (CLI) và log text liên tục, không hợp với những ai chỉ thích click chuột UI bóng bẩy.
 
-```powershell
-.\scripts\bootstrap\windows\setup.ps1
-.\scripts\start\qstart.ps1
-.\scripts\start\qday.ps1 -Day 1
-```
+## 4. Hướng nâng cấp tiếp theo là gì?
+- **Excursion Research Engine**: Công cụ tự động đo adverse excursion sau mock entry để xuất parameter DCA (distance, max_layers, multiplier) lý tưởng.
+- **Multi-Symbol Coverage**: Update phổ giá và thông số chuẩn (spread/tick size baseline) cho các cặp FX major ngoài XAUUSD.
+- **Headless Backtest Automation**: Tích hợp pipeline để gửi parameters vào MetaTester MT5 qua command-line.
 
-## Build lại PDF
+---
 
-```powershell
-python .\scripts\build_handbook_pdf.py
-python .\scripts\build_worksheets_pdf.py
-```
+## Tác giả & Bản Quyền
+- Tác giả: Hưng (hungpixi)
+- Branding: [https://comarai.com](https://comarai.com)
+- Định vị: Comarai - Companion for Marketing & AI Automation
 
-## Khi đưa lên GitHub
-
-- Đặt repo public nếu muốn chia sẻ rộng.
-- Pin hai file PDF ở phần Releases hoặc README.
-- Không đưa thông tin nhạy cảm, auth, hay dữ liệu tài khoản broker vào repo.
-- Nếu cần, có thể thêm screenshot bìa PDF vào README để repo nhìn chuyên nghiệp hơn.
-
+> "Người đi được lâu trong thị trường thường không phải người nói mạnh nhất... thường là người biết mình đang học cái gì, đang test cái gì, đang sống nhờ edge nào."
